@@ -1,0 +1,504 @@
+body{
+    background-color: #0A2463;
+    margin: 0px;
+}
+
+#contenedor{
+    display:flex;
+    height: 100vh;
+}
+
+/*Menu de navegacion*/
+
+nav{
+    /*border: 1px solid black;*/
+    width: 15%;
+    height: 100%;
+}
+
+/* nav > div {
+    border: 1px solid black;
+} */
+
+#divLogo{
+    background-color: #3E92CC;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo{
+    font-size: 80px;
+    color:white;
+    text-shadow: -5px 1px 0px #D8315B;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#nombre{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:25px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    color:#FFFAFF;
+}
+
+.menu{
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-shadow: 2px 1px #D8315B;
+    background-color: #1E1B18;
+    height: 10%;
+}
+
+.menu:hover{
+    background-color: #e6a8e6;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+#redesSociales{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3E92CC;
+}
+
+/*Página de inicio*/
+
+#paginaInicio{
+    /*border: 1px solid black;*/
+    width: 85%;
+    /*height: 690px;*/
+}
+
+#divInicio{
+    /*border: 1px solid black;*/
+    margin-top: 5%;
+}
+
+#divInicio > h1{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color:white;
+    padding-left: 90px;
+}
+
+#divInicio > p{
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:25px;
+    padding-left: 90px;
+    color: #fdf7f7b7;
+}
+
+#spanNombre{
+    color:white;
+    text-shadow: -5px 1px 0px #D8315B;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+#hi{
+    margin-bottom: 0px;
+}
+
+#saludo{
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+#profesion{
+    margin-top: 0px;
+}
+
+#botonContacto{
+    margin-top: 40px;
+    margin-left: 90px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:25px;
+    border: 1px solid white;
+    background-color: #0A2463;
+    color: white;
+    width: 300px;
+    cursor:pointer;
+}
+
+/*Pagina About*/
+
+#paginaAbout{
+    /*border: 1px solid black;*/
+    width: 85%;
+    margin-top: 0px;
+    background-color: white;
+}
+
+#paginaAbout > h1 {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:45px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#about{
+    color:#D8315B;
+}
+
+.grid-container{
+    height: 70%;
+    display: grid;
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows: 60% 30%;
+    margin-top: 0px;
+}
+
+/* .grid-item{
+    border: 1px solid black;
+} */
+
+#item1 {
+    grid-column: 1;
+    grid-row:1/3;
+}
+
+#item1 > h2 {
+    text-align: center;
+    color:#0A2463;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-size: 35px;
+}
+
+#item1 > h4{
+    color:#D8315B;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+#item1 > p{
+    color:#3E92CC;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin-top:10px;
+    padding-left: 15px;
+    text-align: center;
+    font-size:20px;
+}
+
+#item1 > img{
+    padding-left:12%;
+}
+
+#item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#item3{
+    grid-column: 3;
+    grid-row:1/3;
+}
+
+#item3 > h2{
+    text-align: center;
+    color:#0A2463;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-size: 35px;
+}
+
+#item3 > p{
+    color:black;
+    margin-top:10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+    font-size:17px;
+}
+
+#item3 > img{
+    padding-left: 6%;
+}
+
+#item4 > img{
+    padding-left: 18.5%;
+}
+
+#item4 > p{
+margin-top:0px;
+text-align: justify;
+font-family: "Kalam", cursive;
+font-weight: 700;
+font-style: normal;
+font-size: 17px;
+font-weight: bold;
+margin-top:15px;
+}
+
+ul{
+    list-style-type: square;
+    color:black;
+    margin-top:0px;
+    padding-right: 20px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+    font-size:17px;
+}
+
+/*Skills*/
+
+#paginaSkills{
+    width: 85%;
+    margin-top: 0px;
+    background-color: white;
+}
+
+#paginaSkills > p{
+    margin-top: 0px;
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#paginaSkills > h1 {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:45px;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#skills{
+    color:#D8315B;
+}
+
+#contenedorSkills{
+    /*border: 1px solid black;*/
+    width: 90%;
+    height: 70%;
+    margin:auto;
+    display:flex;
+}
+
+.divSkills{
+    border: 1px solid #3e92cc;
+    border-style:dashed;
+    width: 100%;
+    height: 100%;
+    margin-left:2%;
+    margin-top: 3px;
+    border-radius: 30px;
+    background-color: rgba(176, 216, 245,0.4);
+}
+
+.divSkills:hover{
+    background-color: #e7b7e7;
+}
+
+.tituloSkills{
+    text-align: center;
+    /*border: 1px solid black;*/
+    height: 30%;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color:#0A2463;
+    text-shadow: 2px 3px #70b2e0;
+}
+
+.tituloSkills > img {
+    padding-top: 25%;
+}
+
+#imagenSkill{
+    margin-top: 43%;
+}
+
+/*Contact*/
+
+#paginaContacto{
+    width: 85%;
+    margin-top: 0px;
+    background-color: white;
+}
+
+#paginaContacto > h1 {
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size:45px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#contact{
+    color:#D8315B;
+}
+
+#contenedorContacto{
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 27%;
+    margin:auto;
+    display: flex;
+}
+
+.divContacto{
+    border: 3px solid #e6a8e6;
+    width: 100%; 
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.divContacto:hover{
+    background-color: #f3d8f3;
+}
+
+.divContacto > p{
+    text-align: center;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.divContacto > img{
+    margin-top:2%
+}
+
+#contenedorFormulario{
+    /*border:1px solid black; */
+    width: 90%;
+    height: 49%;
+    margin-top: 3%;
+    display: flex;
+    margin:auto;
+    padding-top: 3%;
+}
+
+.divForm{
+    /*border:1px solid black;*/
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.infoContact{
+    color:#D8315B;
+}
+
+.nombreEmail{
+    width: 48%;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    border: 2px solid #0A2463;
+    border-radius:10px;
+}
+
+#formSubject{
+    margin-top: 3%;
+    width: 99%;
+    height: 10%;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    border: 2px solid #0A2463;
+    border-radius:10px;
+}
+
+#formMessage{
+    margin-top: 3%;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    border: 2px solid #0A2463;
+    width:99%;
+    border-radius:10px;
+}
+
+#botonContactar{
+    margin-top: 5%;
+    width: 100%;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    border: 3px solid #0A2463;
+    background-color: #70b2e0;
+    cursor: pointer;
+    border-radius:10px;
+}
+
+#botonContactar:hover{
+    background-color: #e7b7e7;
+}
+
+#formNombre{
+    width:100%;
+    display: flex;
+    height:10%;
+    justify-content: space-between;
+}
+

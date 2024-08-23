@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta nombre = "Maria Jose Olivero Carrascal">
+    <meta clan="Jeff Bezos">
+    <meta correo="majolivero28@gmail.com">
+    <title>Maria Jose Olivero Carrascal</title>
+    <!--Script-->
+    <script src="./JS/index.js" defer></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./CSS/estilos.css">
+    <!--Fuente Logo, página de inicio-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Anton&family=Bungee+Spice&family=Hind+Madurai:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Lilita+One&family=Madimi+One&family=Patrick+Hand&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <!--Fuente nombre-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Anton&family=Bungee+Spice&family=Hind+Madurai:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Lilita+One&family=Madimi+One&family=Patrick+Hand&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <!--Fuente menú-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Anton&family=Bungee+Spice&family=Hind+Madurai:wght@300;400;500;600;700&family=Kalam:wght@300;400;700&family=Kaushan+Script&family=Lilita+One&family=Madimi+One&family=Patrick+Hand&family=Platypi:ital,wght@0,300..800;1,300..800&family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="contenedor">
+        <!--Menu navegacion-->
+        <nav>
+            <div id="divLogo">
+                <p id="logo">MJ</p>
+                <p id="nombre">María José</p>
+            </div>
+            <div class="menu">
+                <a href="#">Languages</a>
+            </div>
+            <div id="home" class="menu" onclick="mostrarHome()">
+                <a href="#">Home</a>
+            </div>
+            <div id="about" class="menu" onclick="mostrarAbout()">
+                <a href="#">About</a>
+            </div>
+            <div id="skills" class="menu" onclick="mostrarSkills()">
+                <a href="#">My skills</a>
+            </div>
+            <div id="contact" class="menu" onclick="mostrarContacto()">
+                <a href="#">Contact</a>
+            </div>
+            <div class="menu">
+                <a href="#">Blog</a>
+            </div>
+            <div id="redesSociales">
+                <a href="https://www.linkedin.com/in/mar%C3%ADa-jos%C3%A9-olivero-carrascal-43b52720a/">
+                    <img src="./img/linkedin.png" alt="Linkedin" height="60px">
+                </a>
+                <a href="https://github.com/majolivero">
+                    <img src="./img/github.png" alt="github" height="60px">
+                </a>
+                <a href="http://wa.link/o0537o">
+                    <img src="./img/whatsapp.png" alt="whatsapp" height="60px">
+                </a>
+            </div>
+        </nav>
+        <!--Página de inicio-->
+        <section id="paginaInicio">
+            <div id="divInicio">
+                <h1 id="hi">Hi,</h1>
+                <h1 id="saludo">I'm <span id="spanNombre">María José</span>,</h1>
+                <h1 id="profesion">software developer</h1>
+                <p>BackEnd Developer / Materials Engineer</p>
+                <button type="button" id="botonContacto" onclick="mostrarContacto()">Contact Me!</button>
+            </div>
+        </section>
+        <!--About me-->
+    <section id="paginaAbout" hidden>
+        <h1><span id="about">About</span> me...</h1>
+        <div class="grid-container">
+            <div class="grid-item" id="item1">
+                <h2>Materials Engineer</h2>
+                <ul>
+                    <li>I am a materials engineer graduated from the University of Antioquia.</li>
+                    <li>I am passionate about generating quality products, analyzing requirements, defining and designing business processes.</li>
+                </ul>
+                <h4>Experience</h4> 
+                <p>Quality Analyst and Trainee</p>
+                <img src="./img/calidad.png" alt="calidad" height="15%">
+                <img src="./img/ingeniera.png" alt="ingeniera" height="15%">
+                <img src="./img/libreta.png" alt="libreta"  height="15%">
+            </div>
+            <div class="grid-item" id="item2">
+                <img src="./img/foto_MJOC_sinfondo.png" alt="fotoMariaJose" height="100%">
+            </div>
+            <div class="grid-item" id="item3">
+                <h2>Software Developer</h2>
+                <p>I started studying programming from home and discovered that I love logic. I studied the basics concepts until I got to programming languages like Python, JavaScript, and C#.</p>
+                <p>I am currently in training at Riwi, specialized in the training of coders and I hope to become a backend developer.</p>
+                <p></p>
+                <img src="./img/python.png" alt="python" height="10%">
+                <img src="./img/javaScript.png" alt="javascript" height="10%">
+                <img src="./img/csharp.png" alt="c#" height="10%">
+                <img src="./img/html.png" alt="html" height="10%">
+                <img src="./img/css.png" alt="css" height="10%">
+            </div>
+            <div class="grid-item" id="item4">
+                <p>My name is Maria Jose Olivero Carrascal, I'm 29 years old. I like to go to the cinema. I really enjoy watching videos on Youtube because I learn new things about new cultures and life in other countries and also play padel with my friends because I can get out of the routine.</p>
+                <img src="./img/youtube.png" alt="youtube" height="30%" >
+                <img src="./img/padel.png" alt="padel" height="30%">
+                <img src="./img/cine.png" alt="cine" height="30%">
+            </div>
+        </div>
+    </section>
+    <!--Skills-->
+    <section id="paginaSkills" hidden>
+        <h1>My<span id="skills"> Skills...</span></h1>
+        <p>I do all kinds of neat stuff</p>
+        <div id="contenedorSkills">
+            <div class="divSkills">
+                <div class="tituloSkills">
+                    <h3>Passion for technology</h3>
+                    <img src="./img/laptop.png" alt="laptop" height="160%">
+                </div>
+            </div>
+            <div class="divSkills">
+                <div class="tituloSkills">
+                    <h3>Teamwork</h3>
+                    <img src="./img/trabajoEquipo.png" alt="trabajoEquipo" height="160%">
+                </div>
+            </div>
+            <div class="divSkills">
+                <div class="tituloSkills">
+                    <h3>Software Development
+                        <img src="./img/desarrollo.png" alt="desarrollo" height="30%" width="70%" id="imagenSkill">
+                    </h3>
+                </div>
+            </div>
+            <div class="divSkills">
+                <div class="tituloSkills">
+                    <h3>Materials Engineer</h3>
+                    <img src="./img/materiales.png" alt="materiales" height="130%">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact-->
+    <section id="paginaContacto" hidden>
+        <h1><span id="contact">Contact</span> me ...</h1>
+        <div id="contenedorContacto">
+            <div class="divContacto">
+                <img src="./img/location.png" alt="location" height="30%">
+                <p class="infoContact">Location:</p>
+                <p>Medellín,Colombia</p>
+            </div>
+            <div class="divContacto">
+                <img src="./img/phone.png" alt="telefono" height="30%">
+                <p class="infoContact">Phone Number:</p>
+                <p>(+57) 319-209-2240</p>
+            </div>
+            <div class="divContacto">
+                <img src="./img/email.png" alt="email" height="30%">
+                <p class="infoContact">Email Address:</p>
+                <p>majolivero28@gmail.com</p>
+            </div>
+        </div>
+        <div id="contenedorFormulario">
+            <div class="divForm">
+                <div id="formNombre">
+                    <input type="text" name="fname" placeholder="Name:" class="nombreEmail">
+                    <input type="email" name="femail" placeholder="Email*:" required class="nombreEmail">
+                </div>
+                <input type="text" name="fSubject" placeholder="Subject:" id="formSubject">
+                <textarea name="message" rows="5" cols="80" placeholder="Message:" id="formMessage"></textarea>
+                <button type="submit" id="botonContactar">Submit</button>
+            </div>
+            <div class="divForm">
+                <iframe src="https://maps.google.com/maps?width=100%25&amp;height=100%25&amp;hl=en&amp;q=laureles,medellin+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
+
